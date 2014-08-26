@@ -1,0 +1,22 @@
+{
+  "name": "consolemessage",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Johnny Ray Austin <johnny@johnnyray.me>"
+  ],
+  "description": "Utility for displaying console messages",
+  "keywords": [
+    "console",
+    "message",
+    "print"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
