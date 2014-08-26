@@ -21,7 +21,7 @@
           }
         }
 
-        message += msg;
+        message += msg + '\n';
         contents.push( message );
         return this;
       },
@@ -31,14 +31,7 @@
         for ( var i = 1; i <= length; i++ ) {
           message += specialChar;
         }
-
-        var lastIndex = contents.length - 1;
-
-        if ( newLine && lastIndex > -1 ) {
-          contents[ lastIndex ] += message;
-        } else {
-          contents.push( message );
-        }
+        contents.push( message );
         return this;
       },
 

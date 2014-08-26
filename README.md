@@ -7,7 +7,7 @@
 
     .line( 'yea' )
 
-    .charSeq( '=', 10, true )
+    .charSeq( '=', 10 )
 
     .append( 'blah' )
 
@@ -23,8 +23,11 @@
 Yields
 ```
           waddup
+
 ******************************
-yea==========blah
+yea
+
+==========blah
 
 
 sweet
